@@ -1,10 +1,9 @@
-/**
- * @module Columnify
- */
-
 import columnify from 'columnify';
 import {RpsContext,RpsModule,rpsAction} from 'rpscript-interface';
 
+/** Columnify Module
+ * @namespace Columnify 
+*/
 @RpsModule("columnify")
 export default class RPSColumnify {
 
